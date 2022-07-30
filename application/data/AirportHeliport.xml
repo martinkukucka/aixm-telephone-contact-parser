@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AIXMBasicMessage xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns="http://www.aixm.aero/schema/5.1/message" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:avinor="http://www.aixm.aero/schema/5.1/extensions/Avinor/eSDO" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:easm="http://www.aixm.aero/schema/5.1/extensions/EUR/eASM" xmlns:avitech="http://www.aixm.aero/schema/5.1/extensions/Avitech/eSDO" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message ./AIXM_BasicMessage.xsd http://www.aixm.aero/schema/5.1/extensions/Avinor/eSDO ./AVINOR_Features.xsd" gml:id="M000001">
+  <hasMember>
+    <aixm:AirportHeliport gml:id="ORB000296" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:easm="http://www.aixm.aero/schema/5.1/extensions/EUR/eASM" xmlns:avinor="http://www.aixm.aero/schema/5.1/extensions/Avinor/eSDO" xmlns:avitech="http://www.aixm.aero/schema/5.1/extensions/Avitech/eSDO">
+      <!--AirportHeliport/AD_HP, M_ID: 2-->
+      <gml:identifier codeSpace="http://www.aixm.aero/example">3f47533e-9684-18f6-e053-3891c80a590e</gml:identifier>
+      <aixm:timeSlice>
+        <aixm:AirportHeliportTimeSlice gml:id="ORB000297">
+          <gml:validTime>
+            <gml:TimeInstant gml:id="ORB000298">
+              <gml:timePosition>2017-12-07T00:00:00</gml:timePosition>
+            </gml:TimeInstant>
+          </gml:validTime>
+          <aixm:interpretation>SNAPSHOT</aixm:interpretation>
+          <aixm:sequenceNumber>0</aixm:sequenceNumber>
+          <aixm:correctionNumber>0</aixm:correctionNumber>
+          <aixm:featureLifetime>
+            <gml:TimePeriod gml:id="ORB000299">
+              <gml:beginPosition>2017-12-07T00:00:00</gml:beginPosition>
+              <gml:endPosition indeterminatePosition="unknown"/>
+            </gml:TimePeriod>
+          </aixm:featureLifetime>
+          <aixm:designator>ENOA</aixm:designator>
+          <aixm:name><![CDATA[OSEBERG A]]></aixm:name>
+          <aixm:locationIndicatorICAO>ENOA</aixm:locationIndicatorICAO>
+          <aixm:designatorIATA xsi:nil="true" nilReason="missing"/>
+          <aixm:type>OTHER:HD</aixm:type>
+          <aixm:certifiedICAO xsi:nil="true" nilReason="other:notavailable"/>
+          <aixm:privateUse>NO</aixm:privateUse>
+          <aixm:controlType>CIVIL</aixm:controlType>
+          <aixm:fieldElevation uom="FT">272</aixm:fieldElevation>
+          <aixm:fieldElevationAccuracy uom="FT">100</aixm:fieldElevationAccuracy>
+          <aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+          <aixm:magneticVariation>-0.8</aixm:magneticVariation>
+          <aixm:dateMagneticVariation>2015</aixm:dateMagneticVariation>
+          <aixm:magneticVariationChange>0.2</aixm:magneticVariationChange>
+          <aixm:referenceTemperature xsi:nil="true" nilReason="other:notavailable"/>
+          <aixm:altimeterCheckLocation xsi:nil="true" nilReason="other:notavailable"/>
+          <aixm:secondaryPowerSupply xsi:nil="true" nilReason="other:notavailable"/>
+          <aixm:windDirectionIndicator xsi:nil="true" nilReason="other:notavailable"/>
+          <aixm:landingDirectionIndicator xsi:nil="true" nilReason="other:notavailable"/>
+          <aixm:transitionAltitude xsi:nil="true" nilReason="other:notavailable"/>
+          <aixm:abandoned xsi:nil="true" nilReason="other:notavailable"/>
+          <aixm:certificationDate xsi:nil="true" nilReason="other:notavailable"/>
+          <aixm:certificationExpirationDate xsi:nil="true" nilReason="other:notavailable"/>
+          <aixm:servedCity xsi:nil="true" nilReason="unknown"/>
+          <aixm:responsibleOrganisation>
+            <aixm:AirportHeliportResponsibilityOrganisation gml:id="ORB000285">
+              <aixm:role>OPERATE</aixm:role>
+              <aixm:theOrganisationAuthority xlink:type="simple" xlink:href="#3f47533e-b761-18f6-e053-3891c80a590e"/>
+              <!--OrganisationAuthority/ORG_AUTH, M_ID: 1-->
+            </aixm:AirportHeliportResponsibilityOrganisation>
+          </aixm:responsibleOrganisation>
+          <aixm:ARP>
+            <aixm:ElevatedPoint gml:id="ORB000287" srsName="urn:ogc:def:crs:EPSG::4326">
+              <gml:pos>60.49138888888889 2.82555555555556</gml:pos>
+              <aixm:horizontalAccuracy uom="M">100</aixm:horizontalAccuracy>
+              <aixm:elevation uom="FT">272</aixm:elevation>
+              <aixm:geoidUndulation uom="FT">148</aixm:geoidUndulation>
+              <aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+              <aixm:verticalAccuracy uom="FT">100</aixm:verticalAccuracy>
+              <aixm:extension>
+                <avinor:ElevatedPointExtension gml:id="ORB000286">
+                  <avinor:storedHorizontalPosFormat>DECSEC</avinor:storedHorizontalPosFormat>
+                  <avinor:storedHorizontalPosScale>4</avinor:storedHorizontalPosScale>
+                  <avinor:crcBase>602929.0000N:0024932.0000E:272:148</avinor:crcBase>
+                  <avinor:crcValue>03F90734</avinor:crcValue>
+                </avinor:ElevatedPointExtension>
+              </aixm:extension>
+            </aixm:ElevatedPoint>
+          </aixm:ARP>
+          <aixm:contact>
+            <aixm:ContactInformation gml:id="ORB000295">
+              <aixm:name><![CDATA[STATOIL ASA]]></aixm:name>
+              <aixm:title xsi:nil="true" nilReason="other:notavailable"/>
+              <aixm:address>
+                <aixm:PostalAddress gml:id="ORB000293">
+                  <aixm:deliveryPoint><![CDATA[Forusbeen 50]]></aixm:deliveryPoint>
+                  <aixm:city><![CDATA[STAVANGER]]></aixm:city>
+                  <aixm:administrativeArea xsi:nil="true" nilReason="other:notavailable"/>
+                  <aixm:postalCode><![CDATA[NO-4035]]></aixm:postalCode>
+                  <aixm:country><![CDATA[NORWAY]]></aixm:country>
+                  <aixm:extension>
+                    <avinor:PostalAddressExtension gml:id="ORB000294">
+                      <avinor:codeType>POST</avinor:codeType>
+                      <avinor:deliveryPointDom><![CDATA[Forusbeen 50]]></avinor:deliveryPointDom>
+                      <avinor:cityDom><![CDATA[STAVANGER]]></avinor:cityDom>
+                      <avinor:administrativeAreaDom xsi:nil="true" nilReason="other:notavailable"/>
+                      <avinor:postalCodeDom><![CDATA[4035]]></avinor:postalCodeDom>
+                      <avinor:countryDom><![CDATA[NORGE]]></avinor:countryDom>
+                      <avinor:sequenceNo>2</avinor:sequenceNo>
+                      <avinor:operationalHourRemark xsi:nil="true" nilReason="other:notavailable"/>
+                      <avinor:operationalHourRemarkDom xsi:nil="true" nilReason="other:notavailable"/>
+                      <avinor:operationalHourCode xsi:nil="true" nilReason="inapplicable"/>
+                      <avinor:remark xsi:nil="true" nilReason="other:notavailable"/>
+                      <avinor:remarkDom xsi:nil="true" nilReason="other:notavailable"/>
+                    </avinor:PostalAddressExtension>
+                  </aixm:extension>
+                </aixm:PostalAddress>
+              </aixm:address>
+              <aixm:phoneFax>
+                <aixm:TelephoneContact gml:id="ORB000290">
+                  <aixm:voice><![CDATA[+47 51 99 00 00]]></aixm:voice>
+                  <aixm:facsimile xsi:nil="true" nilReason="other:notavailable"/>
+                  <aixm:extension>
+                    <avinor:TelephoneContactExtension gml:id="ORB000291">
+                      <avinor:codeType>PHONE</avinor:codeType>
+                      <avinor:voiceDom><![CDATA[51 99 00 00]]></avinor:voiceDom>
+                      <avinor:facsimileDom xsi:nil="true" nilReason="other:notavailable"/>
+                      <avinor:radioFreq xsi:nil="true" nilReason="other:notavailable"/>
+                      <avinor:uomRadioFreq xsi:nil="true" nilReason="other:notavailable"/>
+                      <avinor:sequenceNo>2</avinor:sequenceNo>
+                      <avinor:operationalHourRemark xsi:nil="true" nilReason="other:notavailable"/>
+                      <avinor:operationalHourRemarkDom xsi:nil="true" nilReason="other:notavailable"/>
+                      <avinor:operationalHourCode xsi:nil="true" nilReason="other:notavailable"/>
+                      <avinor:remark xsi:nil="true" nilReason="other:notavailable"/>
+                      <avinor:remarkDom xsi:nil="true" nilReason="other:notavailable"/>
+                    </avinor:TelephoneContactExtension>
+                  </aixm:extension>
+                </aixm:TelephoneContact>
+              </aixm:phoneFax>
+              <aixm:extension>
+                <avinor:ContactInformationExtension gml:id="ORB000288">
+                  <avinor:category>CIV</avinor:category>
+                  <avinor:nameDom><![CDATA[STATOIL ASA]]></avinor:nameDom>
+                  <avinor:titleDom xsi:nil="true" nilReason="other:notavailable"/>
+                  <avinor:remark xsi:nil="true" nilReason="other:notavailable"/>
+                  <avinor:remarkDom xsi:nil="true" nilReason="other:notavailable"/>
+                </avinor:ContactInformationExtension>
+              </aixm:extension>
+            </aixm:ContactInformation>
+          </aixm:contact>
+          <aixm:availability xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:avinor="http://www.aixm.aero/schema/5.1/extensions/Avinor/eSDO">
+            <aixm:AirportHeliportAvailability gml:id="ORB000284">
+              <aixm:operationalStatus>NORMAL</aixm:operationalStatus>
+              <aixm:usage>
+                <aixm:AirportHeliportUsage gml:id="ORB000282">
+                  <aixm:type>PERMIT</aixm:type>
+                  <aixm:selection>
+                    <aixm:ConditionCombination gml:id="ORB000281">
+                      <aixm:logicalOperator>OR</aixm:logicalOperator>
+                      <aixm:subCondition>
+                        <aixm:ConditionCombination gml:id="ORB000276">
+                          <aixm:logicalOperator>AND</aixm:logicalOperator>
+                          <aixm:aircraft>
+                            <aixm:AircraftCharacteristic gml:id="ORB000274">
+                              <aixm:type>HELICOPTER</aixm:type>
+                              <aixm:engine>OTHER</aixm:engine>
+                              <aixm:numberEngine xsi:nil="true" nilReason="other:notavailable"/>
+                              <aixm:typeAircraftICAO xsi:nil="true" nilReason="other:notavailable"/>
+                              <aixm:navigationSpecification xsi:nil="true" nilReason="other:notavailable"/>
+                              <aixm:verticalSeparationCapability xsi:nil="true" nilReason="other:notavailable"/>
+                              <aixm:antiCollisionAndSeparationEquipment xsi:nil="true" nilReason="other:notavailable"/>
+                              <aixm:communicationEquipment xsi:nil="true" nilReason="other:notavailable"/>
+                            </aixm:AircraftCharacteristic>
+                          </aixm:aircraft>
+                          <aixm:flight>
+                            <aixm:FlightCharacteristic gml:id="ORB000273">
+                              <aixm:type xsi:nil="true" nilReason="other:notavailable"/>
+                              <aixm:rule>ALL</aixm:rule>
+                              <aixm:status xsi:nil="true" nilReason="other:notavailable"/>
+                              <aixm:military>CIVIL</aixm:military>
+                              <aixm:origin xsi:nil="true" nilReason="other:notavailable"/>
+                              <aixm:purpose>SCHEDULED</aixm:purpose>
+                            </aixm:FlightCharacteristic>
+                          </aixm:flight>
+                        </aixm:ConditionCombination>
+                      </aixm:subCondition>
+                      <aixm:subCondition>
+                        <aixm:ConditionCombination gml:id="ORB000280">
+                          <aixm:logicalOperator>AND</aixm:logicalOperator>
+                          <aixm:aircraft>
+                            <aixm:AircraftCharacteristic gml:id="ORB000278">
+                              <aixm:type>HELICOPTER</aixm:type>
+                              <aixm:engine>OTHER</aixm:engine>
+                              <aixm:numberEngine xsi:nil="true" nilReason="other:notavailable"/>
+                              <aixm:typeAircraftICAO xsi:nil="true" nilReason="other:notavailable"/>
+                              <aixm:navigationSpecification xsi:nil="true" nilReason="other:notavailable"/>
+                              <aixm:verticalSeparationCapability xsi:nil="true" nilReason="other:notavailable"/>
+                              <aixm:antiCollisionAndSeparationEquipment xsi:nil="true" nilReason="other:notavailable"/>
+                              <aixm:communicationEquipment xsi:nil="true" nilReason="other:notavailable"/>
+                            </aixm:AircraftCharacteristic>
+                          </aixm:aircraft>
+                          <aixm:flight>
+                            <aixm:FlightCharacteristic gml:id="ORB000277">
+                              <aixm:type xsi:nil="true" nilReason="other:notavailable"/>
+                              <aixm:rule>ALL</aixm:rule>
+                              <aixm:status xsi:nil="true" nilReason="other:notavailable"/>
+                              <aixm:military>CIVIL</aixm:military>
+                              <aixm:origin xsi:nil="true" nilReason="other:notavailable"/>
+                              <aixm:purpose>NON_SCHEDULED</aixm:purpose>
+                            </aixm:FlightCharacteristic>
+                          </aixm:flight>
+                        </aixm:ConditionCombination>
+                      </aixm:subCondition>
+                    </aixm:ConditionCombination>
+                  </aixm:selection>
+                  <aixm:extension>
+                    <avinor:AirportHeliportUsageExtension gml:id="ORB000272">
+                      <avinor:codeAip>YES</avinor:codeAip>
+                      <avinor:codeEad>YES</avinor:codeEad>
+                      <avinor:operationalHourRemark xsi:nil="true" nilReason="other:notavailable"/>
+                      <avinor:operationalHourRemarkDom xsi:nil="true" nilReason="other:notavailable"/>
+                      <avinor:operationalHourCode xsi:nil="true" nilReason="other:notavailable"/>
+                      <avinor:remark xsi:nil="true" nilReason="other:notavailable"/>
+                      <avinor:remarkDom xsi:nil="true" nilReason="other:notavailable"/>
+                      <avinor:uuid>3f47533e-9795-18f6-e053-3891c80a590e</avinor:uuid>
+                    </avinor:AirportHeliportUsageExtension>
+                  </aixm:extension>
+                </aixm:AirportHeliportUsage>
+              </aixm:usage>
+              <aixm:extension>
+                <avinor:AirportHeliportAvailabilityExtension gml:id="ORB000283">
+                  <avinor:operationalHourRemark xsi:nil="true" nilReason="missing"/>
+                  <avinor:operationalHourRemarkDom xsi:nil="true" nilReason="missing"/>
+                  <avinor:operationalHourCode>HX</avinor:operationalHourCode>
+                </avinor:AirportHeliportAvailabilityExtension>
+              </aixm:extension>
+            </aixm:AirportHeliportAvailability>
+          </aixm:availability>
+          <aixm:extension>
+            <avinor:AirportHeliportExtension gml:id="ORB000270">
+              <avinor:codeAip>YES</avinor:codeAip>
+              <avinor:codeEad>YES</avinor:codeEad>
+              <avinor:txtNameDom><![CDATA[OSEBERG A]]></avinor:txtNameDom>
+              <avinor:anemometer xsi:nil="true" nilReason="other:notavailable"/>
+              <avinor:txtDescrAnemometer xsi:nil="true" nilReason="other:notavailable"/>
+              <avinor:txtDescrAnemometerDom xsi:nil="true" nilReason="other:notavailable"/>
+              <avinor:codeOpsUsage>OI</avinor:codeOpsUsage>
+              <avinor:fieldElevationGeoidUndulation>148</avinor:fieldElevationGeoidUndulation>
+              <avinor:fieldElevationGeoLat>602929.0000N</avinor:fieldElevationGeoLat>
+              <avinor:fieldElevationGeoLong>0024932.0000E</avinor:fieldElevationGeoLong>
+              <avinor:fieldElevationHorizontalAccuracy>100</avinor:fieldElevationHorizontalAccuracy>
+              <avinor:fieldElevationHorizontalAccuracyUom>M</avinor:fieldElevationHorizontalAccuracyUom>
+              <avinor:fieldElevationSrsName>WGE</avinor:fieldElevationSrsName>
+              <avinor:fieldElevationCrcBase>602929.0000N:0024932.0000E:272:148</avinor:fieldElevationCrcBase>
+              <avinor:fieldElevationCrcValue>03F90734</avinor:fieldElevationCrcValue>
+              <avinor:posDescription xsi:nil="true" nilReason="other:notavailable"/>
+              <avinor:posDescriptionDom xsi:nil="true" nilReason="other:notavailable"/>
+              <avinor:siteDescription xsi:nil="true" nilReason="inapplicable"/>
+              <avinor:siteDescriptionDom xsi:nil="true" nilReason="inapplicable"/>
+              <avinor:altimeterCheckLocation xsi:nil="true" nilReason="other:notavailable"/>
+              <avinor:altimeterCheckLocationDom xsi:nil="true" nilReason="other:notavailable"/>
+              <avinor:secondaryPowerSupplyDescription xsi:nil="true" nilReason="other:notavailable"/>
+              <avinor:secondaryPowerSupplyDescriptionDom xsi:nil="true" nilReason="other:notavailable"/>
+              <avinor:wdiDescription xsi:nil="true" nilReason="other:notavailable"/>
+              <avinor:wdiDescriptionDom xsi:nil="true" nilReason="other:notavailable"/>
+              <avinor:ldiDescription><![CDATA[NIL]]></avinor:ldiDescription>
+              <avinor:ldiDescriptionDom><![CDATA[NIL]]></avinor:ldiDescriptionDom>
+              <avinor:signalArea xsi:nil="true" nilReason="other:notavailable"/>
+              <avinor:codeTypeHeli>HELI</avinor:codeTypeHeli>
+              <avinor:certificationRemark xsi:nil="true" nilReason="other:notavailable"/>
+              <avinor:codeReferencePoint>HEL</avinor:codeReferencePoint>
+              <avinor:codeAipAd2>NO</avinor:codeAipAd2>
+              <avinor:locationType>WATER</avinor:locationType>
+              <avinor:remark><![CDATA[ENOA - Highest point of installation (flame stack) 518 FT AMSL. Cold flare. Unignited gas might be released from flare stack without warning, gas ignited automaticly by gun. Safety zone from flare 100 x 1600 x 600 M, MSL - 3300FT]]></avinor:remark>
+              <avinor:remarkDom><![CDATA[ENOA - Høyeste punkt på innretning (flammetårn) 518 FT AMSL. Cold flare. Uantent gass kan slippes fra flammetårnet uten advarsel. Gassen blir automatisk antent vha. pistol. Sikkerhetsområde fra tårnet 100 x 1600 x 600 M, MSL - 3300 FT]]></avinor:remarkDom>
+              <avinor:crcBase>602929.0000N:0024932.0000E:272:148</avinor:crcBase>
+              <avinor:crcValue>03F90734</avinor:crcValue>
+              <avinor:originDate xsi:nil="true" nilReason="other:notavailable"/>
+              <avinor:originType xsi:nil="true" nilReason="unknown"/>
+              <avinor:originSource xsi:nil="true" nilReason="other:notavailable"/>
+              <avinor:originInformation xsi:nil="true" nilReason="other:notavailable"/>
+              <avinor:confidenceLevelHorizontal xsi:nil="true" nilReason="other:notavailable"/>
+              <avinor:confidenceLevelHorizontalUom xsi:nil="true" nilReason="other:notavailable"/>
+              <avinor:confidenceLevelVertical xsi:nil="true" nilReason="other:notavailable"/>
+              <avinor:confidenceLevelVerticalUom xsi:nil="true" nilReason="other:notavailable"/>
+            </avinor:AirportHeliportExtension>
+          </aixm:extension>
+        </aixm:AirportHeliportTimeSlice>
+      </aixm:timeSlice>
+    </aixm:AirportHeliport>
+  </hasMember>
+</AIXMBasicMessage>

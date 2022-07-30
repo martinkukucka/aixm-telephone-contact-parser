@@ -1,0 +1,3 @@
+aixm:TelephoneContact
+aixm:voice
+aixm:facsimile
